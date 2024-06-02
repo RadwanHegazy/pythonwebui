@@ -231,7 +231,7 @@ page.save('my-html-file.html')
 
 ---
 # Use Screens 
-### You Can build a full page with custom attributes and elements using only 3 line of code !
+### You Can build a full page with custom attributes and elements using only 4 lines of code !
 
 ```python
 from pythonwebui.screens.root import RootScreen
