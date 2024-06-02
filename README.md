@@ -244,7 +244,7 @@ page.save('my-html-file.html')
 <img src="assets/use-screens.png" width='400px'>
 
 
-### Let's add our atts to this page 
+### Let's add our attrs to this page 
 
 ```python
 from pythonwebui.screens.root import RootScreen
@@ -279,6 +279,9 @@ root.submit_button.text = 'Login Now'
 root.hyperlink.text = "don't have an accout ?"
 root.hyperlink.href = 'Your URL'
 
+# you can also change the background image source using 
+# root.bg_img.src = '<path-to-img>'
+
 # save the page
 page = root.page()
 page.save('my-html-file.html')
@@ -289,10 +292,6 @@ page.save('my-html-file.html')
 <img src="assets/create-custom-screen.png" width='400px'>
 
 
-```python
-# you can also change the background image source using 
-root.bg_img.src = '<path-to-img>'
-```
 
 ---
 
