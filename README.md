@@ -26,6 +26,7 @@
 ```
 git clone <repo-link>
 ```
+or simply you can run `pip install git+https://github.com/RadwanHegazy/pythonwebui.git` and you are ready to go
 
 ```
 cd pythonwebui
